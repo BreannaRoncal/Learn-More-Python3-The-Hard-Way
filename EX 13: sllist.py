@@ -62,7 +62,6 @@ class SingleLinkedList(object):
 
 
     #finds a matching item and removes it from the list
-    #counts how many times the item was removed
     def remove(self, obj):
         current_node = self.begin
         if current_node != None:
